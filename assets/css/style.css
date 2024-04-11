@@ -24,12 +24,32 @@
     margin-right: -12px;
 }
 
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .d-flex {
     display: flex;
 }
 
 .align-center {
     align-items: center;
+}
+
+.f-direction-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
 }
 
 .justify-between {
@@ -98,6 +118,99 @@
     border-radius: 50px;
     border: 1px solid #F53855;
 }
-.menu{
+
+.menu {
     padding: 5px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.head {
+    font-family: "Rubik", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: left;
+    margin-top: 120px;
+}
+
+.head2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+}
+
+.txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.vpn {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+
+.sec1-btn {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    width: 250px;
+    height: 60px;
+    background-color: #F53838;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0 30px 38px -20px #F53838;
+}
+
+.circle {
+    width: 55px;
+    height: 55px;
+    border-radius: 70px;
+    background-color: #FFECEC;
+}
+
+.border {
+    border-right: 2px solid #EEEFF2;
+}
+
+.col-4-head {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #0B132A;
+}
+
+.col-4-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #4F5665;
+}
+
+.whitebox {
+    width: 1140px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 103px;
+    padding: 50px;
+    box-shadow: -1px 0px 58px 17px rgba(0, 0, 0, 0.18)
 }
