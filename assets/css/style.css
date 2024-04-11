@@ -56,12 +56,20 @@
     justify-content: space-between;
 }
 
+.align-start {
+    align-items: start;
+}
+
 .w-100 {
     width: 100%;
 }
 
 .gap10 {
     gap: 10px;
+}
+
+.gap20 {
+    gap: 20px;
 }
 
 .nav-head {
@@ -250,5 +258,126 @@
     font-weight: 400;
     line-height: 30px;
     text-align: left;
+    color: #4F5665;
+}
+
+.bg-clr {
+    background-color: #FAFAFA;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.sec3-head {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.sec3-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    margin-top: 20px;
+}
+
+.mainbox-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #4F5665;
+}
+
+.mainbox-head {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    max-width: 330px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.free {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    margin-top: 120px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.fees {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    margin-top: 80px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+.fees2{
+    font-family: "Rubik", sans-serif;
+        font-size: 25px;
+        margin-top: 40px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+}
+
+.btn {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.96px;
+    text-align: center;
+    color: #F53838;
+    background-color: white;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    width: 177.88px;
+    height: 45px;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: #F53838;
+    color: white;
+    box-shadow: 0 30px 38px -20px #F53838;
+}
+.nav-btn:hover{
+    background-color: #F53838;
+    color: white;
+}
+
+.month {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
     color: #4F5665;
 }
