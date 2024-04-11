@@ -35,7 +35,8 @@
     padding-left: 12px;
     padding-right: 12px;
 }
-.col-2{
+
+.col-2 {
     width: 16.66%;
     padding-left: 12px;
     padding-right: 12px;
@@ -264,10 +265,6 @@
     line-height: 30px;
     text-align: left;
     color: #4F5665;
-}
-
-.bg-clr {
-    background-color: #FAFAFA;
 }
 
 .mt-30 {
