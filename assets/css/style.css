@@ -117,6 +117,7 @@
     font-weight: 500;
     line-height: 18.96px;
     text-align: left;
+    color: #0B132A;
 }
 
 .nav-btn {
@@ -148,6 +149,7 @@
     line-height: 70px;
     text-align: left;
     margin-top: 120px;
+    color: #0B132A;
 }
 
 .head2 {
@@ -191,6 +193,12 @@
     box-shadow: 0 30px 38px -20px #F53838;
 }
 
+.sec1-btn:hover {
+    background-color: white;
+    color: #F53838;
+    border: 1px solid #F53838;
+}
+
 .circle {
     width: 55px;
     height: 55px;
@@ -221,12 +229,13 @@
 }
 
 .whitebox {
-    width: 1140px;
+    max-width: 1140px;
+    width: 100%;
     border-radius: 10px;
     background-color: white;
     margin-top: 103px;
     padding: 50px;
-    box-shadow: -1px 0px 58px 17px rgba(0, 0, 0, 0.18)
+    box-shadow: -1px 0px 58px 17px rgba(0, 0, 0, 0.18);
 }
 
 .sec2-head {
@@ -402,6 +411,7 @@
     font-weight: 500;
     line-height: 50px;
     text-align: center;
+    color: #0B132A;
 }
 
 .sec4-txt {
@@ -421,4 +431,159 @@
     font-weight: 500;
     line-height: 30px;
     text-align: center;
+}
+
+.sec5-head {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    max-width: 447px;
+    margin-top: 90px;
+    color: #0B132A;
+}
+
+.sec5-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    max-width: 555px;
+    margin-top: 24px;
+}
+
+.sub {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    max-width: 370px;
+    color: #0B132A;
+}
+
+.fun {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #4F5665;
+}
+
+.sub-btn {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    width: 250px;
+    border: none;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    background-color: #F53838;
+    box-shadow: 0 30px 38px -20px #F53838;
+
+}
+
+.parentbox {
+    width: 100%;
+    max-width: 1140px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 0px 20px 35px #F8F8F8;
+}
+
+.bg-clr {
+    background: linear-gradient(to bottom, white 50%, #F8F8F8 50%);
+    padding: 30px 0px;
+}
+
+.bg-clr2 {
+    background-color: #F8F8F8;
+    padding-bottom: 100px;
+}
+
+.foot-txt {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #4F5665;
+    max-width: 340px;
+    margin-top: 24px;
+}
+
+.bold-foot {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #4F5665;
+}
+
+.shadow {
+    box-shadow: 0px 13px 18px 0px #11132314;
+    background-color: #F53838;
+    border-radius: 50%;
+    height: 26px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.las {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+    margin-top: 30px;
+}
+
+.les {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.list-head {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #0B132A;
+}
+
+.list-link {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 24px;
+    color: #4F5665;
+}
+
+.globe:hover {
+    transform: translateY(360deg);
+    transform: rotateY(360deg);
+    transition: all 2s;
+    cursor: pointer;
 }
