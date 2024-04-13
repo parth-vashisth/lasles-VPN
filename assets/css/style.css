@@ -42,6 +42,12 @@
     padding-right: 12px;
 }
 
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .d-flex {
     display: flex;
 }
@@ -136,6 +142,7 @@
 
 .menu {
     padding: 5px;
+    position: fixed;
 }
 
 .mt-100 {
@@ -144,7 +151,7 @@
 
 .head {
     font-family: "Rubik", sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
     line-height: 70px;
     text-align: left;
@@ -154,7 +161,7 @@
 
 .head2 {
     font-family: "Rubik", sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 70px;
     text-align: left;
@@ -206,9 +213,7 @@
     background-color: #FFECEC;
 }
 
-.border {
-    border-right: 2px solid #EEEFF2;
-}
+
 
 .col-4-head {
     font-family: "Rubik", sans-serif;
@@ -230,6 +235,7 @@
 
 .whitebox {
     max-width: 1140px;
+    margin-left: 0px;
     width: 100%;
     border-radius: 10px;
     background-color: white;
@@ -586,4 +592,105 @@
     transform: rotateY(360deg);
     transition: all 2s;
     cursor: pointer;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+.lg-view {
+    display: none;
+}
+.nav-icon{
+    position: fixed;
+    right: 4%;
+}
+.gap150{
+    gap: 150px;
+}
+
+@media (max-width: 992px) {
+    .lg-view {
+        position: fixed;
+        width: 100%;
+        height: 102vh;
+        top: 0;
+        left: -150%;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 3;
+        transition: 0.5s;
+        gap: 20px;
+    }
+
+    .nav-icon {
+        z-index: 4;
+    }
+
+    .show {
+        left: 0%;
+    }
+
+}
+
+@media (min-width:576px) {
+    .col-sm-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:768px) {
+    .col-md-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .gap-md-0 {
+        gap: 0px;
+    }
+
+    .border {
+        border-right: 2px solid #EEEFF2;
+    }
+}
+
+@media (min-width:992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-2 {
+        width: 16.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .f-direction-lg-row {
+        flex-direction: row;
+    }
+    .nav-icon{
+        display: none;
+    }
+    .lg-view{
+        display: flex;
+    }
 }
