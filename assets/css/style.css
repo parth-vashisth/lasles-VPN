@@ -143,6 +143,8 @@
 .menu {
     padding: 5px;
     position: fixed;
+    background-color: white;
+    opacity: 80%;
 }
 
 .mt-100 {
@@ -496,6 +498,12 @@
 
 }
 
+.sub-btn:hover {
+    background-color: white;
+    color: #F53838;
+    border: 1px solid #F53838;
+}
+
 .parentbox {
     width: 100%;
     max-width: 1140px;
@@ -597,14 +605,17 @@
 .mb-20 {
     margin-bottom: 20px;
 }
+
 .lg-view {
     display: none;
 }
-.nav-icon{
+
+.nav-icon {
     position: fixed;
     right: 4%;
 }
-.gap150{
+
+.gap150 {
     gap: 150px;
 }
 
@@ -687,10 +698,12 @@
     .f-direction-lg-row {
         flex-direction: row;
     }
-    .nav-icon{
+
+    .nav-icon {
         display: none;
     }
-    .lg-view{
+
+    .lg-view {
         display: flex;
     }
 }
