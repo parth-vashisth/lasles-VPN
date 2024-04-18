@@ -145,6 +145,10 @@
     cursor: pointer;
 }
 
+.f-wrap {
+    flex-wrap: wrap;
+}
+
 .menu {
     padding: 15px;
     position: fixed;
